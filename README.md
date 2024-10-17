@@ -183,6 +183,12 @@ const fetchPatients = async () => {
 - **API Testing**:
   - To test the API endpoints, open your preferred API testing tool (e.g., Postman, Insomnia) and make requests to `http://localhost:5000/api/{endpoint}`. Replace `{endpoint}` with the specific API endpoint you wish to test.
 
+### Demo Video
+
+
+https://github.com/user-attachments/assets/18ad443d-e8d2-4ed9-89c7-e8a7d92fc403
+
+
 
 ### Explanation of Sections
 
@@ -192,7 +198,5 @@ const fetchPatients = async () => {
 - **API Documentation**: Clearly outlines the available API endpoints with examples.
 - **Frontend Documentation**: Describes the structure of the frontend and how it interacts with the backend APIs.
 - **Usage**: Instructions on how to run the application.
-- **Contributing**: Encourages collaboration and explains how to contribute to the project.
-- **License**: Provides licensing information.
 
 Feel free to modify or expand upon this template to suit your project's needs! Let me know if you need further assistance or any specific changes.
