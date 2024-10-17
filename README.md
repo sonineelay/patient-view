@@ -9,10 +9,9 @@ Develop a full-stack application where healthcare providers can view and manage 
 - [API Documentation](#api-documentation)
   - [Patient API](#patient-api)
   - [Authorization API](#authorization-api)
+  - [Response Examples](#response-examples)
 - [Frontend Documentation](#frontend-documentation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies Used
 - **Frontend**: React, Axios, Bootstrap,React-icons
