@@ -9,5 +9,4 @@ router.get('/:id', getAuthorizationById);
 router.post('/', createAuthorization);
 router.put('/:id', updateAuthorization);
 router.delete('/:id', deleteAuthorization);
-
 module.exports = router;

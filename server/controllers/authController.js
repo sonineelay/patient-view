@@ -2,12 +2,22 @@
 const Authorization = require('../models/Authorization');
 
 // Get all authorization requests
-exports.getAllAuthorizations = async (req, res, next) => {
+exports.getAllAuthorizations = async (req, res) => {
+    const { patientId } = req.query; // Check if patientId is passed in the query params
+
     try {
-        const authRequests = await Authorization.find({});
-        res.status(200).json(authRequests);
+        let authorizations;
+
+        if (patientId) {
+            // If patientId is provided, fetch authorizations for that patient
+            authorizations = await Authorization.find({ patientId });
+        } else {
+            // Otherwise, fetch all authorizations
+            authorizations = await Authorization.find();
+        }
+        res.json(authorizations);
     } catch (error) {
-        next(error);
+        res.status(500).json({ error: 'Error fetching authorizations' });
     }
 };
 
