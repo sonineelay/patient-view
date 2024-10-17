@@ -1,1 +1,2 @@
 # PatientView: Patient Health Dashboard for Prior Authorization
+## Objective: Develop a full-stack application where healthcare providers can view and manage patient health data, focusing on prior authorization workflows. This will involve creating a patient dashboard, integrating health data, and building APIs for submitting and managing prior authorization requests.
